@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .panel-surface {
+    @apply bg-panel-bg border border-panel-border text-panel-text;
+  }
+}
